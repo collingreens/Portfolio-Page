@@ -1,0 +1,76 @@
+:root {
+    --clr-dark: #01120e;
+    --clr-light: #b8e6cd;
+    --clr-emerald200: #a7f3d0;
+    --clr-emerald400: #34d399;
+    --clr-emerald600: #059669;
+    --clr-emerald800: #065f46;
+    --clr-amber: #d97706;
+    --clr-cyan: #0891b2;
+
+    /* amber 	rgb(217, 119, 6)  */
+    /* cyan 	rgb(8, 145, 178)  */
+
+    /* sizes */
+    --size-xxs: 0.5rem ;
+    --size-xs: 0.75rem ;
+    --size-sm: 0.875rem ;
+    --size-base: 1rem ;
+    --size-lg: 1.125rem ;
+    --size-xl: 1.25rem ;
+    --size-2xl: 1.5rem ;
+    --size-3xl: 1.875rem ;
+    --size-4xl: 2.25rem ;
+    --size-5xl: 3rem ;
+    --size-6xl: 3.75rem ;
+    --size-7xl: 4.5rem ;
+    --size-8xl: 6rem ;
+    --size-9xl: 8rem ;
+    --size-10xl: 10rem ;
+}
+
+* {
+    margin: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+html{
+    scroll-behavior: smooth;
+    color: var(--clr-light);
+}
+
+.light-mode {
+    --clr-light: #022c22;
+    --clr-dark: #b8e6cd;
+    --clr-emerald200: #065f46;
+    --clr-emerald400: #065f46;
+    --clr-emerald600: #065f46;
+    --clr-emerald800: #065f46;
+}
+
+body {
+    font-family: 'General Sans', sans-serif;
+    background-color: var(--clr-dark);
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button {
+    display: inline-block; 
+    padding: .1em;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+a {
+    color: var(--clr-amber);
+}
+
+
