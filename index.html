@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Collin Bruno's portfolio website/project showcase">
+    <meta name="keywords" content="landing page, html, css, javascript, project">
     <title>Portfolio</title>
   </head>
   <body>
@@ -15,7 +17,7 @@
         <li><a class="header__link" href="#featured">Work</a></li>
         <li><a class="header__link" href="mailto:cbruno1027@gmail.com">Contact</a></li>
         
-          <button id="sun-toggle" class="header__sun">
+          <button aria-label="toggle-button" id="sun-toggle" class="header__sun">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
             </svg>
@@ -26,7 +28,7 @@
           <a target="_blank" class="header__resume btn" href="https://docs.google.com/document/d/1TEXtHsngq_KFPcFDmhe1J2XIAPDCBNOfibXOrOqJSOk/edit?usp=sharing">Resume</a>
         </li>
       </ul>
-      <button class="header__bars">
+      <button aria-label="mobile nav button" class="header__bars">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
@@ -48,7 +50,7 @@
           <a class="mobile-nav__link" href="#contact">Contact</a>
         </li>
         <li class="mobile-nav__link-line"></li>
-        <li > <button id="sun-toggle" class="mobile-nav__sun">
+        <li > <button aria-label="mobile nav button" id="sun-toggle" class="mobile-nav__sun">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
           </svg>
@@ -109,7 +111,7 @@
       <h3 class="featured__subtitle">Featured Project</h3> 
       <div class="featured__wrapper">
         <h2 class="featured__title">Memory Matching</h2>
-        <a class="featured__link" target="_blank" href="https://collingreens.github.io/Matching-Game/"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <a aria-label="link featured project" class="featured__link" target="_blank" href="https://collingreens.github.io/Matching-Game/"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
         </svg>
         </a>
@@ -185,9 +187,9 @@
   <footer class="footer container section">
     <hr class="footer__hr">
     <div class="footer__icons">
-      <a target="_blank" href="https://www.linkedin.com/in/collin-bruno/"><img  class="img footer__img" src="/public/linked.svg" alt="Linkedin"></a>
-      <a target="_blank" href="https://github.com/collingreens/"><img  class="img footer__img" src="/public/github.svg" alt="github"></a>
-      <a target="_blank" href="https://codepen.io/your-work"><img  class="img footer__img" src="/public/codepen.svg" alt="codepen"></a>
+      <a aria-label="Linkedin" target="_blank" href="https://www.linkedin.com/in/collin-bruno/"><img  class="img footer__img" src="/public/linked.svg" alt="Linkedin"></a>
+      <a aria-label="github" target="_blank" href="https://github.com/collingreens/"><img  class="img footer__img" src="/public/github.svg" alt="github"></a>
+      <a aria-label="codepen" target="_blank" href="https://codepen.io/your-work"><img  class="img footer__img" src="/public/codepen.svg" alt="codepen"></a>
     </div>
    
     
