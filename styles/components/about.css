@@ -83,7 +83,7 @@
 }
 
 /* xs */
-@media (min-width: 400px) {
+@media (min-width: 300px) {
     .acc__p{
         line-height: 1.5rem;
         font-size: var(--size-xs);
