@@ -41,6 +41,3 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 } 
 
-$( function() {
-  $( "#accordion").accordion();
-});
